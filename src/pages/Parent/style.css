@@ -1,0 +1,9 @@
+
+.parent{
+    display:flex;
+    flex-direction: column;
+    padding: 50px;
+    height: 220px;
+    gap:20px;
+    background: antiquewhite;
+}

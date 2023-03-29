@@ -1,0 +1,21 @@
+*{margin:0;
+padding:0;}
+
+.childOne{
+    background: aqua;
+    /* height: 220px; */
+    display: flex;
+    gap: 59px;
+    justify-content: center;
+
+}
+.childOne__button{
+    padding: 10px 77px;
+    border: 2px solid blueviolet;
+    border-radius: 14px;
+    background: aliceblue;
+    cursor: pointer;
+}
+.childOne__input{
+    border-radius: 7px;
+}

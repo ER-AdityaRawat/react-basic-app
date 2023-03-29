@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.section {
+  background-image: url(/public/assests/svg/footer_background.svg);
+  height: -moz-fit-content;
+  height: fit-content;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  padding: 60px 30px;
+  flex-direction: row;
+  gap: 20px;
+  box-sizing: border-box;
+}
+.section__logo {
+  width: 20%;
+  background-color: white;
+  border-radius: 11px;
+  padding: 30px 21px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  flex-wrap: wrap;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 28%;
+  flex-wrap: nowrap;
+}
+.section__logo__botshot {
+  height: 30px;
+  width: 50%;
+}
+.section__logo__linkedin {
+  margin-top: 21px;
+  height: 27px;
+  width: 27px;
+}
+.section__logo__instagram {
+  height: 27px;
+  width: 27px;
+  margin-left: 8px;
+}
+.section__logo__facebook {
+  height: 27px;
+  width: 27px;
+  margin-left: 9px;
+}
+.section__card {
+  width: 20%;
+  background-color: white;
+  border-radius: 11px;
+  padding: 30px 21px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  flex-wrap: wrap;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.section__card__heading {
+  color: #2f3891;
+  margin-bottom: 3px;
+  font-weight: bolder;
+}
+.section__card__subheadings {
+  color: #1d1d1d;
+  font-weight: normal;
+}
+
+.foooter {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  background-color: #000531;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 29px 38px;
+  box-sizing: border-box;
+}
+.foooter__left__link {
+  color: #5d607c;
+  font-size: 13px;
+  text-decoration: none;
+}
+.foooter__right {
+  color: #5d607c;
+  font-size: 13px;
+}/*# sourceMappingURL=style.css.map */

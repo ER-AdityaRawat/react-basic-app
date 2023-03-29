@@ -1,0 +1,16 @@
+.Header__button {
+    padding: 13px 44px;
+    border-radius: 23px;
+    margin-top: 3px;
+    border-width: 0px;
+    background-color: whitesmoke;
+    background-size: cover;
+    color: #4154f1;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .Header__button:hover {
+    background-color: transparent;
+    transition-delay: 0.2s;
+  }
+  

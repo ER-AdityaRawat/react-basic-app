@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.header {
+    display: none;
+  height: 90px;
+  width: 100%;
+}
+.header__navbar {
+  background-color: white;
+  height: 90px;
+  width: 100%;
+  position: fixed;
+}
+.header__navbar__logo {
+  float: left;
+  
+}
+.imgage{
+    padding-left :84px;
+            padding-top: 17px;
+  }
+  .span{
+    color:#54DAFF;
+  }
+
+.header__navbar__menu {
+  margin-top: 34px;
+}
+.header__navbar__menu__items {
+  text-decoration: none;
+  color: black;
+  padding: 15px 35px;
+}
+
+.containerr {
+  background: url(../../../public/assests/png/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 497px;
+}
+.containerr__overlay {
+  padding-top: 130px;
+  padding-left: 120px;
+}
+.containerr__overlay__title {
+  color: white;
+}
+.containerr__overlay__text {
+  color: #C9ACFD;
+  padding-top: 8px;
+  margin-bottom: 12px;
+}
+.containerr__overlay__paragraph {
+  color: #C9ACFD;
+  padding-top: 7px;
+}
+.containerr__overlay__button {
+  margin-top: 18px;
+  color: white;
+  background-color: transparent;
+  border-radius: 20px;
+  border-color: #54DAFF;
+  padding: 10px 33px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: red;
+}
+
+.header__navbar a:hover {
+  color: red;
+}/*# sourceMappingURL=style.css.map */

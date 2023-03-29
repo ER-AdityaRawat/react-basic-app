@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .containerrr {
+    display: flex;
+    background-color: #004a80;
+    color: white;
+  }
+  .containerrr__left {
+    margin: 55px 125px 0px 45px;
+    gap: 28px;
+    display: flex;
+    flex-direction: column;
+  }
+  .containerrr__left__contact {
+    font-family: "oswald", sans-serif;
+  }
+  .containerrr__left__text {
+    display: flex;
+    gap: 19px;
+  }
+  .containerrr__left__text__item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .containerrr__right {
+    background-color: white;
+    border: 10px solid #0f5e98;
+    border-radius: 49px;
+    color: black;
+  }
+  .containerrr__right__heading {
+    font-family: "oswald", sans-serif;
+    margin: 21px 19px 12px;
+  }
+  .containerrr__right__form {
+    display: flex;
+    padding: 1px 37px 1px 22px;
+    gap: 20px;
+  }
+  .containerrr__right__form__left, .containerrr__right__form__right {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  
+  .input {
+    border-width: 0px 0px 0px 5px;
+    border-color: #ad4d4b;
+    padding: 15px 10px;
+    border-style: solid;
+    border-radius: 4px;
+    width: 341px;
+    font-size: 16px;
+    background-color: #f5f5f5;
+  }
+  .input--text {
+    padding-top: 33px;
+    font-size: 13px;
+    resize: none;
+  }
+  
+  .button {
+    padding: 16px 0px;
+    background-color: #808080;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    color: white;
+  }
+  
+  .footer {
+    display: flex;
+    padding: 35px 41px 0px;
+    font-size: 17px;
+    gap: 220px;
+    background-color: #004a80;
+    color: white;
+  }
+  .footer__download {
+    position: relative;
+    width: 284px;
+  }
+  .footer__download__android {
+    height: 50px;
+    position: absolute;
+    top: 12px;
+    left: 9px;
+  }
+  .footer__download__apple {
+    height: 38px;
+    position: absolute;
+    top: 18px;
+    left: 138px;
+  }
+  .footer__heading {
+    font-family: "oswald", sans-serif;
+    letter-spacing: 2px;
+  }
+  .footer__subheading {
+    font-weight: 100;
+    letter-spacing: 3px;
+  }
+  .footer__icons {
+    padding-top: 5px;
+    height: 33px;
+  }
+  .footer__copyright {
+    font-size: 10px;
+  }
+  
+  .captcha {
+    border: 1px solid #d3d3d3;
+    margin: 37px;
+    box-sizing: border-box;
+    padding: 25px;
+    position: relative;
+    background-color: #f9f9f9;
+    box-shadow: 1px 1px 5px #d3d3d3;
+  }
+  .captcha__checkbox {
+    zoom: 1.5;
+  }
+  .captcha__text {
+    position: absolute;
+    top: 22px;
+    left: 54px;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }/*# sourceMappingURL=style.css.map */
